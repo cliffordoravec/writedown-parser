@@ -1,0 +1,2 @@
+@include dir/subdir/file6.wd
+@include dir/file3.wd
