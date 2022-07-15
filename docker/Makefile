@@ -22,7 +22,7 @@ test-installer-linux:
 
 # make run arguments=<arguments>
 run:
-	$(BASE_COMMAND) python -m writedown.cli $(argument)
+	$(BASE_COMMAND) python -m writedown.cli $(arguments)
 
 test:
 	$(BASE_COMMAND) python -m unittest discover tests --verbose
