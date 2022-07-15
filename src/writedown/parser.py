@@ -337,6 +337,7 @@ class Parser():
         if (len(entries) == 0) and not os.path.isdir(glob_path):
             raise ValueError(f'No files matched path {glob_path}')
 
+        entries.sort()
         for entry in entries:
             yield os.fspath(entry)
 
